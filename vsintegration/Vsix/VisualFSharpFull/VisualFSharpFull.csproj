@@ -78,6 +78,13 @@
       <IncludeOutputGroupsInVSIXLocalOnly>DebugSymbolsProjectOutputGroup%3b</IncludeOutputGroupsInVSIXLocalOnly>
       <Private>True</Private>
     </ProjectReference>
+    <ProjectReference Include="..\..\..\src\fsharp\Fsc\Fsc.fsproj">
+      <Project>{C94C257C-3C0A-4858-B5D8-D746498D1F08}</Project>
+      <Name>fsc</Name>
+      <IncludeOutputGroupsInVSIX>BuiltProjectOutputGroup%3bGetCopyToOutputDirectoryItems%3b</IncludeOutputGroupsInVSIX>
+      <IncludeOutputGroupsInVSIXLocalOnly>DebugSymbolsProjectOutputGroup%3b</IncludeOutputGroupsInVSIXLocalOnly>
+      <Private>True</Private>
+    </ProjectReference>
     <ProjectReference Include="$(FSharpSourcesRoot)\..\vsintegration\src\FSharp.Editor\FSharp.Editor.fsproj">
       <Project>{65e0e82a-eace-4787-8994-888674c2fe87}</Project>
       <Name>FSharp.Editor</Name>
