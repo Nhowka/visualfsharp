@@ -1,9 +1,9 @@
 use vs
 
-package name=Microsoft.FSharp.SDK.Core
+package name=Microsoft.FSharp.SDK
         version=$(FSharpPackageVersion)
 
-folder "InstallDir:Common7\IDE\CommonExtensions\Microsoft\FSharpSdk"
+folder "InstallDir:MSBuild\15.0\Bin\FSharpSdk"
 
   folder ".NETCore"
     folder "3.3.1.0"
