@@ -411,7 +411,7 @@ this file.
     <Target Name="RedirectFSharpCoreReferenceToNewRedistributableLocation" BeforeTargets="ResolveAssemblyReferences">
       <PropertyGroup>
         <_OldRootSdkLocation>$(MSBuildProgramFiles32)\Reference Assemblies\Microsoft\FSharp</_OldRootSdkLocation>
-        <_NewRootSdkLocation>$(VsInstallRoot)\Common7\IDE\CommonExtensions\Microsoft\FSharpSdk</_NewRootSdkLocation>
+        <_NewRootSdkLocation>$(VsInstallRoot)\MSBuild\15.0\Bin\FSharpSdk</_NewRootSdkLocation>
 
         <_CoreRelativeSuffix>.NETCore\$(TargetFSharpCoreVersion)\FSharp.Core.dll</_CoreRelativeSuffix>
         <_FrameworkRelativeSuffix>.NETFramework\v4.0\$(TargetFSharpCoreVersion)\FSharp.Core.dll</_FrameworkRelativeSuffix>
